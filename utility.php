@@ -1,5 +1,5 @@
 <?php
-  function utility($str)
+  function getData($str)
   {
     if(isset($_POST[$str]) || isset($_GET[$str]))
        {
