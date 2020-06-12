@@ -3,5 +3,18 @@
   $NAAC_USERNAME="";
   $NAAC_PASSWORD="";
   $NAAC_ROLE="";
-  $sql="insert into AUTH_USER (NAAC_USER_ID,NAAC_USERNAME,NAAC_PASSWORD,NAAC_ROLE) values ('$NAAC_USER_ID','$NAAC_USERNAME','$NAAC_PASSWORD','  $NAAC_ROLE')";
+  $sql="insert into AUTH_USER
+  (
+    NAAC_USER_ID,
+    NAAC_USERNAME,
+    NAAC_PASSWORD,
+    NAAC_ROLE
+  ) 
+  values 
+  (
+    '$NAAC_USER_ID',
+    '$NAAC_USERNAME',
+    '$NAAC_PASSWORD',
+    '$NAAC_ROLE'
+   )";
 ?>
